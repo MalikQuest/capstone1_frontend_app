@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <h2>Users: {{ user.description }}</h2>
-    <p>name: {{ user.name }}</p>
-    <p>email: {{ user.email }}</p>
-    <p>height: {{ user.height }}</p>
-    <p>weight: {{ user.weight }}</p>
-    <p>age: {{ user.age }}</p>
+    <!--   <p>name: {{ user.name }}</p> -->
+    <!--   <p>email: {{ user.email }}</p> -->
+    <!--  <p>height: {{ user.height }}</p> -->
+    <!-- <p>weight: {{ user.weight }}</p> -->
+    <!-- <p>age: {{ user.age }}</p> -->
     <!-- <p>activities: {{ user.activities }}</p> -->
     <h4>activities:</h4>
     <div v-for="activity in activities">
@@ -70,19 +70,19 @@ export default {
     createPhoto: function() {
       var params = {
         name: this.newUserDescription,
-        email: this.newUserEmail,
-        height: this.newUserHeight,
-        weight: this.newUserWeight,
-        age: this.newUserAge,
+        // email: this.newUserEmail,
+        // height: this.newUserHeight,
+        // weight: this.newUserWeight,
+        // age: this.newUserAge,
         activities: this.newUserActivities
       };
       axios.post("/api/users", params).then(response => {
         this.newUserDescription.push(response.data);
-        this.newUserEmail = "";
-        this.newUserHeight = "";
-        this.newUserWeight = "";
-        this.newUserAge = "";
-        this.newUserActivities = "";
+        // this.newUserEmail = "";
+        // this.newUserHeight = "";
+        // this.newUserWeight = "";
+        // this.newUserAge = "";
+        // this.newUserActivities = "";
       });
     }
   }

@@ -30,14 +30,12 @@
       <div class="inner">
         <h2 class="major">Get in touch</h2>
         <p>
-          Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
-          tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed
-          ac elementum arcu. Quisque placerat auctor laoreet.
+          If you have questions or concerns, I would be more than happy to hear from you! Let's get fit together!
         </p>
         <form method="post" action="#">
           <div class="fields">
             <div class="field">
-              <label for="name">Biking</label>
+              <label for="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
             <div class="field">
@@ -55,17 +53,15 @@
         </form>
         <ul class="contact">
           <li class="icon solid fa-home">
-            Untitled Inc
+            Actualize Coding Bootcamp
             <br />
-            1234 Somewhere Road Suite #2894
+            215 W. Ohio St. #300
             <br />
-            Nashville, TN 00000-0000
+            Chicago,IL 60654
+            <br />
           </li>
-          <li class="icon solid fa-phone">(000) 000-0000</li>
-          <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-          <li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-          <li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-          <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+          <li class="icon solid fa-envelope"><a href="#">jordan.taylor15@gmail.com</a></li>
+          <li class="icon brands fa-instagram"><a href="#">instagram.com/jordanmalik_</a></li>
         </ul>
         <ul class="copyright">
           <li>© Untitled Inc. All rights reserved.</li>
